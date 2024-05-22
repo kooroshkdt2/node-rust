@@ -21,7 +21,5 @@ RUN    # Add pnpm
 RUN    npm install -g pnpm
 RUN    # Set up xwin (adjust paths as necessary)
 RUN    mkdir /root/.xwin
-RUN    # Install node packages
-RUN    pnpm config set store-dir .pnpm-store # Set the pnpm store directory
-RUN    pnpm install --prefer-offline
+
  
