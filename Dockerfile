@@ -16,6 +16,11 @@ RUN apt-get update && apt-get install -y \
   apt-utils \
   ca-certificates \
   build-essential \
+  rsync \
+  rclone \
+  jq \
+  git-core \
+  ca-certificates \
   && rm -rf /var/lib/apt/lists/*
 
 # Install Rust
